@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: url('https://assets.editorial.aetnd.com/uploads/2019/07/july-4-fireworks-gettyimages-530944604.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay for better text visibility */
+    color: white;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.1);
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding: 20px 0;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.fundraising {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-family: "Kaushan Script", cursive;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.fundraising-bar-container {
+    width: 80%;
+    background-color: #ddd;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.fundraising-bar {
+    width: 33.33%; /* This will be updated dynamically with JS */
+    height: 30px;
+    background-color: #4caf50;
+}
+
+.photos {
+    margin: 20px 0;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.photo-gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
